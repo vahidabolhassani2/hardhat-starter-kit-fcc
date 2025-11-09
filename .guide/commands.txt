@@ -1,0 +1,19 @@
+# git commands
+
+git add .
+git commit -m "Initial commit — project files"
+
+git remote add origin https://github.com/vahidabolhassani2/hardhat-starter-kit.git
+git branch -M main
+
+# If the remote repo has not commits:
+git push -u origin main
+
+
+# If the remote repo already has commits (e.g. README):
+git fetch origin
+git pull --rebase origin main   # merge their changes into your local
+
+# resolve conflicts if any, then:
+git push -u origin main
+
