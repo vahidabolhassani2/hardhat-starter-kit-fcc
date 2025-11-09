@@ -6,7 +6,7 @@ git commit -m "Initial commit — project files"
 git remote add origin https://github.com/vahidabolhassani2/hardhat-starter-kit.git
 git branch -M main
 
-# Force git to get credentials
+# Force git to open the credentials window
 git config --global credential.helper store
 
 # If the remote repo has not commits or adding new commits after cloning the source:
